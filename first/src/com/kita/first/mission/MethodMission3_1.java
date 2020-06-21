@@ -18,7 +18,7 @@ public class MethodMission3_1 {
 		return i;
 		*/
 		
-		// 이 부분 다시 복습
+		
 		return (i<0) ? -i : i;
 	}
 }

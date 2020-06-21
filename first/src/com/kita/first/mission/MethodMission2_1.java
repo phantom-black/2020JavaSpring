@@ -48,7 +48,7 @@ public class MethodMission2_1 {
 	}
 	*/
 	
-	// 이 부분 다시 복습
+	
 	public static void printStarTriangleReverse(int star) {
 		for(int i=star-1; i>=0; i--) {
 			printChar(' ', i);

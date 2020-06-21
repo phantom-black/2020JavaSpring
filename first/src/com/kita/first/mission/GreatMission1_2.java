@@ -4,9 +4,8 @@ import java.util.Scanner;
 
 public class GreatMission1_2 {
 	/*
-	 * 숫자 야구 게임 숫자 LEN개 겹치지 않게 뽑아두고 LEN개의 숫자 입력
-	 * 
-	 * 
+	  숫자 야구 게임 숫자 LEN개 겹치지 않게 뽑아두고 LEN개의 숫자 입력
+	
 	 */
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
