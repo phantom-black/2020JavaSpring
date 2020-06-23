@@ -12,7 +12,7 @@ public class BoardVO {
 		this.title = title;
 		this.content = content;
 		this.writeId = writeId;
-	}	// 외부에서 필드로 값 넣는 방법 마련1
+	}	// 외부에서 필드로 값 넣는 방법 마련1 - 생성자 통해서 넣는다
 	
 	// 메소드 통해서 값 넣는 방법
 	// title 세터
@@ -44,4 +44,6 @@ public class BoardVO {
 	
 	// setter는 무조건 void, 무조건 set으로 시작
 	// public void set~() {
+	
+	// getter는 필수지만 setter와 생성자는 둘 중 하나만 넣어도 됨
 }
