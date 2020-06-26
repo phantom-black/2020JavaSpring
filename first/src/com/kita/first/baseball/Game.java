@@ -10,10 +10,14 @@ public class Game {
 			myBall.setNumbers();
 		} while(Checker.check(gameCnt, ball, myBall));
 		
+		/*
 		myBall.setNumbers();
 		int val = myBall.get(0);
 		//숫자1: 3
 		//숫자2: 6
 		//숫자3: 8
+		*/
+		System.out.println("게임종료");
 	}
 }
+    
