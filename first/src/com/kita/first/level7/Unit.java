@@ -14,7 +14,11 @@ public class Unit { // final : 무조건 값 넣어야 함, 값을 한 번 넣�
 	public int getCurrent_hp() {
 		return current_hp;
 	}
-
+	
+	public void setCurrent_hp(int hp) {
+		this.current_hp = hp;
+	}
+	
 	public void getDamage(int damage) {
 		current_hp -= damage;
 	}
